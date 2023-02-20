@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Search</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        margin: 50px auto;
+        max-width: 600px;
+        padding: 0 20px;
+      }
+
+      .logo {
+        display: block;
+        margin: 0 auto;
+        width: 272px;
+        height: 92px;
+        background-image: url("/Users/vijitchandna/workspace/googlesearch/owasp copy.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+      }
+
+      form {
+        margin: 50px auto;
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+      .form-input {
+        display: block;
+        height: 44px;
+        line-height: 44px;
+        padding: 0 15px;
+        border: 1px solid #dfe1e5;
+        background-color: #fff;
+        box-sizing: border-box;
+        font-size: 16px;
+        flex-grow: 1;
+      }
+
+      .form-input:focus {
+        outline: none;
+        box-shadow: 0 0 0 1px #4285f4;
+        border-color: #4285f4;
+      }
+
+      .form-submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 44px;
+        padding: 0 15px;
+        background-color: #4285f4;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .form-submit:hover {
+        background-color: #357ae8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="#" class="logo">Google Search</a>
+      <form>
+        <input type="text" name="q" class="form-input" placeholder="Search" />
+        <button type="submit" class="form-submit">Search</button>
+      </form>
+    </div>
+  </body>
+</html>
